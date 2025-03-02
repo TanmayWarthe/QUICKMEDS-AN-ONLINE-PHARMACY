@@ -1,4 +1,4 @@
-/* Base Styles */
+    /* Base Styles */
 /* Ensure Font Awesome is always included */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
@@ -10,15 +10,9 @@ body {
 
 /* Header and Tagline */
 .header {
-<<<<<<< HEAD
     background-color: #78ade5 !important;
     padding: 10px 0 !important;
     border-bottom: 1px solid #e9ecef;
-=======
-    background-color: #78ade5;
-    padding: 10px 0;
-    border-bottom: none;
->>>>>>> 68537b2ae03045ff6750901c72bbe5eabb416815
 }
 
 .tagline {
@@ -149,11 +143,7 @@ body {
     background: white;
     transition: transform 0.2s;
     flex: 0 0 auto;
-<<<<<<< HEAD
     cursor: pointer;
-=======
-    cursor: default;
->>>>>>> 68537b2ae03045ff6750901c72bbe5eabb416815
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -175,10 +165,6 @@ body {
     object-fit: contain;
     border-radius: 4px;
     margin-bottom: 16px;
-<<<<<<< HEAD
-=======
-    filter: none;
->>>>>>> 68537b2ae03045ff6750901c72bbe5eabb416815
 }
 
 .product-info {
@@ -224,19 +210,7 @@ body {
     text-decoration: line-through;
 }
 
-<<<<<<< HEAD
 .add-btn {
-=======
-/* Product Actions */
-.product-actions {
-    display: flex;
-    gap: 10px;
-    margin-top: 15px;
-}
-
-.add-btn {
-    flex: 1;
->>>>>>> 68537b2ae03045ff6750901c72bbe5eabb416815
     background: #4CAF50;
     color: white;
     border: none;
@@ -244,40 +218,12 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: background 0.3s;
-<<<<<<< HEAD
-=======
-    font-size: 14px;
-    text-align: center;
->>>>>>> 68537b2ae03045ff6750901c72bbe5eabb416815
 }
 
 .add-btn:hover {
     background: #45a049;
 }
 
-<<<<<<< HEAD
-=======
-.view-details-btn {
-    flex: 1;
-    background: #f8f9fa;
-    color: #333;
-    border: 1px solid #dee2e6;
-    padding: 8px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s;
-    font-size: 14px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.view-details-btn:hover {
-    background: #e9ecef;
-    text-decoration: none;
-    color: #333;
-}
-
->>>>>>> 68537b2ae03045ff6750901c72bbe5eabb416815
 /* Cart Message */
 .cart-message {
     position: fixed;

@@ -1,11 +1,8 @@
 const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
 const container = document.getElementById('container');
-<<<<<<< HEAD
-=======
 const signupForm = document.getElementById('signupForm');
 const loginForm = document.getElementById('loginForm');
->>>>>>> 68537b2ae03045ff6750901c72bbe5eabb416815
 
 // Check URL parameters when page loads
 window.addEventListener('load', () => {
@@ -21,8 +18,6 @@ signUpButton.addEventListener('click', () => {
 
 signInButton.addEventListener('click', () => {
     container.classList.remove('right-panel-active');
-<<<<<<< HEAD
-=======
 });
 
 // Form validation functions
@@ -142,5 +137,4 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => alert.remove(), 500);
         }, 5000);
     });
->>>>>>> 68537b2ae03045ff6750901c72bbe5eabb416815
 }); 
